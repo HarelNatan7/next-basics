@@ -2,8 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
-    return (
-        <header className='header'>
+    return <header className='header'>
             <div className='container'>
                 <div className="logo">
                     <Link href='/'>This is Header</Link>
@@ -16,7 +15,6 @@ const Header = () => {
                 </div>
             </div>
         </header>
-    )
 }
 
 export default Header
