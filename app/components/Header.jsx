@@ -5,7 +5,7 @@ const Header = () => {
     return <header className='header'>
             <div className='container'>
                 <div className="logo">
-                    <Link href='/'>This is Header</Link>
+                    <Link href='/'>Harel Natan</Link>
                 </div>
                 <div className="links">
                     <Link href='/'>Home</Link>
