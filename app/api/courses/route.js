@@ -6,18 +6,18 @@ export async function GET(request) {
   return NextResponse.json(courses);
 }
 
-// export async function POST(request) {
-//   const { title, description, level, link } = await request.json();
+export async function POST(request) {
+  const { title, description, level, link } = await request.json();
 
-//   const newCourse = {
-//     id: uuidv4(),
-//     title,
-//     description,
-//     level,
-//     link,
-//   };
+  const newCourse = {
+    id: uuidv4(),
+    title,
+    description,
+    level,
+    link,
+  };
 
-//   courses.push(newCourse);
+  courses.push(newCourse);
 
-//   return NextResponse.json(courses);
-// }
+  return NextResponse.json(courses);
+}
